@@ -1,0 +1,80 @@
+.header{background-image:url("../image/large.jpg");}
+.opacity{background-color: rgba(0, 0, 0, 0.5);}
+.row{margin-left:0px;margin-right:0px;}
+.col-md-9{margin-right:0px;}
+$color_celeste:#49b7e1;
+$color_celeste_rgba:rgba(0, 85, 187, 0.3);
+$color_celeste_letra:#2f97bf;
+$color_azul:#09536f;
+$color_blanco:#e1e1e1;
+$color_plomo:#9a9898;
+.img-inline{
+	display:inline-block;
+}
+.color_celeste{
+	color:$color_celeste;
+}
+.color_plomo{
+	color:$color_plomo;
+}
+.menu{
+	padding-top:3%;
+}
+.txt-blue{
+	color:$color_blanco;
+}
+.txt-blue:hover{
+	color:$color_celeste_letra;
+	text-decoration:none;
+}
+.text-white{
+	color:$color_blanco;
+}
+.pd-40{
+	padding:40%;
+}
+.descrip{
+	padding-left:0%;
+	padding-right:0%;
+}
+.prueba{
+	background-color:$color_celeste_rgba;
+	padding:2%;
+}
+.btn-1{
+	padding:5%;
+	background-color: rgba(215, 44, 44, 0);
+	font-size:20px;
+}
+.servicios{
+	padding:4%;
+}
+.list-serv{
+	padding-top:3%;
+}
+.icon{
+	border-radius:100%;
+	padding:10%;
+	border: 1px solid $color_blanco;
+	font-size:40px;
+	color:$color_celeste;
+}
+.title{
+	color:$color_plomo;
+}
+.example{
+	padding-top:5%;
+}
+.blue{
+	background-color:$color_celeste;
+}
+.footer{
+	background-color:$color_azul;
+}
+.icon2{
+	color:$color_celeste;
+	font-size:30px;
+}
+.float{
+	float:bottom;
+}
